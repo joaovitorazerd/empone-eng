@@ -1,0 +1,478 @@
+    *{
+        margin: 0%;
+        padding: 0%;
+        box-sizing: border-box;
+    }
+    html, body{
+        font-family: Roboto, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        background-size:cover;
+    }
+
+    .pad1-y{ padding: 10px 0;}
+    .pad2-y{ padding: 20px 0;}
+    .pad3-y{ padding: 0 40px;}
+
+    /*BARRA DE NAVEGAÇAO*/
+    #navbar{
+        opacity: 0.9;
+        position: fixed;
+        width: 100%;
+        background-color:#151515;
+        text-align: center;
+        overflow: auto;
+        padding: 2px;
+    }
+    #navbar a{
+        color: #fff;
+        text-decoration: none;
+    }
+
+    #navbar ul{
+        list-style: none;
+    }
+
+    #navbar ul li{
+        margin: 0%;
+        display: inline-block;
+    }
+
+    #navbar ul li a{
+        font-size: 12px;
+        padding: 0px 50px;
+        vertical-align: middle;
+    }
+
+    #navbar ul li a:hover,
+    #navbar ul li a.pagina-atual{
+        color: rgb(31, 107, 221);
+    }
+    
+    #navbar .container{
+        margin: auto;
+        overflow: auto;
+        max-width: 2560px;
+        padding: 2px 5px;
+    }
+
+    /*SHOWCASE*/
+    #showcase{
+        margin: 0%;
+        width: 100%;
+        overflow: auto;
+    }
+    
+    .showcase-principal .container{
+        height: 676px;
+    }
+
+    #showcase .container .showcase-principal .entretop{
+        background-color:#fff;
+        padding-top: 55px;
+        padding-bottom: 15px;
+        text-align: center;
+    }
+
+    #showcase .container .showcase-principal .text-principal{
+        background-color: #151515;
+        padding-top: 20px;
+        text-align: center;
+    }
+    
+    #showcase .container .showcase-principal .text-principal ul, h2{
+        list-style: none;
+        line-height: 50px;
+    }
+
+    #showcase .container .showcase-principal .text-principal ul li{
+        display: inline-block;
+    }
+    #showcase .container .showcase-principal .text-principal ul li a{
+        color: rgb(31, 107, 221);
+        font-size: 20px;
+        text-decoration: none;
+        padding: 0px 10px;
+    }
+
+    #showcase .container .showcase-principal .text-principal a:hover{
+        text-decoration: underline; 
+    }
+    
+    /*TITULOS E PARAGRAFOS*/
+    h1{
+        text-align: center;
+        color:#fff;
+        font-size:56px;
+    }
+
+    .text-principal h2{
+        color:#fff;
+        font-weight: lighter;
+        font-size:28px;
+    }
+
+    .entretop h3{
+        color:#151515;
+        font-weight: lighter;
+        font-size:16px;
+    }
+
+    .showcase-principal h4{
+        color:#151515;
+        font-size:28px;
+        padding:20px;
+        text-align: center;
+    }
+
+    .showcase-principal h5{
+        margin: 0%;
+        color:#fff;
+        font-size:140px;
+        text-align: center;
+        padding-top: 250px;
+    }
+
+    /*INFO PRINCIPAL*/
+
+    .illustration{
+        margin-left:-50px;
+    }
+
+    #info-principal{
+        height: 380px;
+    }
+
+    #info-principal .info-imagem{
+        float: left;
+        width: 50%;
+        border:10px solid #151515;
+        border-right: 5px solid #151515;
+        border-bottom: 0px;
+        background: url(img/etienne3.png);
+        height: 100%;
+        background-repeat: no-repeat;
+    }
+    #info-principal .info-conteudo{
+        float: right;
+        width: 50%;
+        height: 100%;
+        border:10px solid #151515;
+        border-left: 5px solid #151515;
+        border-bottom: 0px;
+        text-align: center;
+        padding: 40px;
+        overflow: hidden;
+    }
+    .info-conteudo h2{
+        color:#151515;
+        font-size:28px;
+    }
+
+    #info-principal p{
+        margin: 0%;
+        color:#151515;
+        font-size:14px;
+        text-justify: distribute-all-lines;
+        padding: 40px;
+    }
+
+    /*SOBRE*/
+
+    .btn{
+        display: inline-block;
+        font-size: 14px;
+        text-decoration: none;
+        background-color: #151515;
+        color: #fff;
+        padding: 15px;
+        border: 0;
+        border-radius: 10px;
+        cursor: pointer;
+    }
+
+    .btn:hover{
+        background-color:rgb(31, 107, 221);
+        text-decoration: underline;
+    }
+
+    .info-conteudo {
+        background-color: rgb(241, 241, 241);
+        text-align: center;
+    }
+
+    #info-sobre .cabecalho-esquerdo, #reviews .cabecalho-esquerdo{
+        color: #151515;
+    }
+
+    .texto-principal{
+        color: rgb(31, 107, 221);
+    }
+
+    #info-sobre .container{
+        background-color: rgb(241, 241, 241);
+        height: 700px;
+        padding: 55px 40px;
+        text-align: center;
+    }
+
+    #info-sobre .informacao img{
+        width: 300px;
+        height: 300px;
+        border-radius: 15%;
+        margin-right: 100px;
+        background-color: #151515;
+    }
+
+    #info-sobre .informacao p{
+        width: 400px;
+        color:#151515;
+        font-size:14px;
+        padding-top: 80px;
+        margin-left: 100px;
+    }
+    #reviews p{
+        margin: 0%;
+        color:#151515;
+        font-size:14px;
+        padding: 40px;
+    }
+    #reviews p{
+        margin: 0%;
+        color:#fff;
+        font-size:14px;
+        padding: 40px;
+    }
+
+    #info-sobre .informacao{
+        padding-top: 40px;
+        display: block;
+        width: 50%;
+        float: left;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    #reviews .container{
+        text-align: center;
+        height: 500px;
+        background-color:rgb(241, 241, 241);
+    }
+
+    #reviews .review{
+        display: block;
+        text-align: center;
+        width: 1000px;
+        padding-top: 20px;
+        margin-bottom: 30px;
+        border-radius: 15px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    #reviews h1{
+        padding-bottom: 40px;
+    }
+
+    #reviews .review .foto img{
+        width: 100px;
+        float: left;
+        margin-right: 20px;
+        margin-left: 20px;
+        border-radius: 15px;
+    }
+
+    #reviews .review-nome{
+        float: left;
+        margin: 0%;
+        padding: 0%;
+        color: rgb(31, 107, 221);
+        font-weight:bolder;
+        font-size: 20px;
+    }
+
+    /*RODA PE*/
+
+    .roda-pe{
+        background-color: #151515;
+        padding-top: 40px;
+        padding-bottom: 10px;
+    }
+
+    .roda-pe ul{
+        list-style: none;
+        text-align: center;
+    }
+
+    .roda-pe  ul li{
+        display: inline-block;
+    }
+
+    .roda-pe ul li a{
+        font-size: 12px;        
+        vertical-align: middle;
+        text-decoration: none;
+        text-align: center;
+        color: #fff;
+        padding: 0px 5px;
+    }
+
+    .roda-pe a:hover{
+        text-decoration: underline; 
+    }
+
+    .roda-pe h3{
+        color: #fff;
+        font-weight: lighter;
+        font-size:14px;
+        text-align: center;
+    }
+
+    .clr{
+        clear: both;
+    }
+
+    /*CARACTERISTICAS*/
+
+    #caracteristicas{
+        height: 300px;
+        border: 10px solid #151515;
+    }
+
+    .box{
+        float: left;
+        text-align: center;
+        width: 33.333%;
+        padding: 55px 40px;
+        border-width: 10px;
+        height: 100%;
+       
+    }
+
+    .box i{
+        padding-bottom: 10px;
+        font-size: 50px;
+        margin-left: 25px;
+        margin-right: 25px;
+    }
+
+    .box p{
+        margin: 10px;
+        text-align: center;
+    }
+
+    .bg-claro{
+        background-color:rgb(241, 241, 241);
+    }
+
+    .bg-principal{
+        background-color: #151515;
+        color: #fff;
+    }
+
+    .bg-principal p{
+        color: #fff;
+    }
+
+    /*CONTATO*/
+
+    #form-contato p{
+        padding-top: 20px;
+    }
+    #form-contato .btn{
+        float: right;
+    }
+    #form-contato .container{
+        background-color: rgb(241, 241, 241);     
+        padding: 55px 40px;
+        height: 800px;
+    }
+    #form-contato .cabecalho-form{
+        color: #151515;
+        text-align: center;
+    }
+    #form-contato label{
+        display: block;
+        margin-bottom: 5px;
+    }
+
+    #form-contato .campos-form{
+        margin-bottom: 20px;
+    }
+
+    #form-contato input, #form-contato textarea{
+        width: 100%;
+        padding: 10px;
+        border: 2px #cfcfcf solid;
+        border-radius: 10px;
+    }
+    #form-contato textarea{
+        height: 200px;
+    }
+
+    #form-contato input:focus, #form-contato textarea:focus{
+        outline: none;
+        border-color: rgb(31, 107, 221);
+    }
+   
+   /*
+   LISTA CONTATO
+   */
+     #lista-contato .cabecalho-lista-contato{
+        color: #151515;
+        text-align: center;
+        padding-bottom: 50px;
+    }
+    
+    #lista-contato .container{
+     background-color: rgb(241, 241, 241);     
+     padding: 55px 40px;
+     min-height: 600px;
+    }
+    
+    /*
+    ESTILOS DA TABELA CONTATO
+    */
+    .tabela-contato{
+    margin: auto;
+    border-collapse: collapse;
+    color: #fff;
+    font-size: 0.9em; 
+    min-width: 1000px;
+    }
+    
+    .tabela-contato th,
+    .tabela-contato td{
+    padding: 15px 15px;
+    text-align: center;
+    }
+    
+    .tabela-contato thead tr{
+    background-color: rgb(31, 107, 221);
+    color: #fff;
+    }
+    
+    .tabela-contato tbody tr:nth-of-type(odd){
+    background-color: #282828;
+    }
+    
+    .tabela-contato tbody tr:nth-of-type(even){
+    background-color: #383838;
+    }
+    
+    .tabela-contato tbody tr:last-of-type{
+    border-bottom: 5px solid rgb(37, 107, 221);
+    }
+    
+    .tabela-contato tbody tr a{
+    color: #fff;
+    text-decoration: none;
+    }
+    
+    .tabela-contato tbody tr a:hover{
+    color: rgb(37, 107, 221);
+    }
+    
+    #tabela-contato-acao{
+    text-align: center;
+    }
+    
+    
